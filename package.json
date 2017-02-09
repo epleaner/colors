@@ -1,0 +1,27 @@
+{
+  "name": "colors",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "author": "Eli Pleaner",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "babel-runtime": "^6.22.0",
+    "chroma": "^0.0.1",
+    "html-minifier": "^3.3.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "bin/build"
+  },
+  "devDependencies": {
+    "path": "^0.12.7"
+  }
+}

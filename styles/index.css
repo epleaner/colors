@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.photo-colors {
+  display: flex;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+  }
