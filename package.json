@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "bin/build"
+    "build": "webpack"
   },
   "devDependencies": {
     "path": "^0.12.7"
